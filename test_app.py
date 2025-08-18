@@ -1,4 +1,4 @@
 from app import lwphone
 
 def test_lwphone():
-	asset lwphone() == "9949095520"
+	assert lwphone() == "9949095520"
