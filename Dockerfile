@@ -1,4 +1,4 @@
-FROM redhat/ubi8
+FROM docker.io/redhat/ubi8:latest
 
 RUN yum install python3 -y
 
